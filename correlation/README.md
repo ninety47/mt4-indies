@@ -18,7 +18,7 @@ using the:
 ![Oscillator](http://db.tt/MnuRmdWn)
 ####A screenshot of the EURUSD with the oscillator.
 ![MTF Table](http://db.tt/dv7q1hjz)
-####A screenshot of the EURAUD with the oscillator.
+####A screenshot of the EURAUD with the correlation table.
 
 #To Do:
 * ...
