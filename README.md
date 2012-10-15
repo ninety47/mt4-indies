@@ -13,7 +13,7 @@ you acknowledge the author, Michael O'Keeffe, is **NOT responsilble** for any ty
 using the:
 * source code, 
 * compiled or other binary products, or 
-* any derived from this repository.
+* any works derived from this source or binary code held in this repository.
 
 #What is MetaTrader 4 (MT4)
 MetaTrader 4 is a retail trading platform commonly used by retail traders to trade Foreign Exchange (FX) and Contracts
@@ -30,9 +30,9 @@ are listed each the READ ME file. The subfolders are structre in similar fashion
 **Coming soon:**
 * **COT**: Commitments of Traders (COT) indicator(s) under development (see www.cftc.gov for more infomration).
 * **Spread**: A basic indcator display some information about the symbol, spread etc (almost ready to publish).
-* **Paulus1M1T**: An experiment in deriving expectancy from a basic mechanical system. The 1 minute 1 trade indicator 
-implements a method outlined in a thread on Forex Factory. My implementation of this system as indicator is **NOT** an 
-endorsement of it or as a trading system - it was just an experiment. (needs some code clean up).
+* **Paulus1M1T**: An experiment in deriving expectancy for a basic mechanical system from within MT4. The 1 minute 1 trade 
+indicator implements a method outlined in a thread on Forex Factory. My implementation of this system as indicator is 
+**NOT** an endorsement of the thread or the trading system - it was just an experiment. (needs some code clean up).
 
 
 #References
