@@ -3,39 +3,44 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <title>Mt4-indies by ninety47</title>
+    <title>Mt4 Indicators by ninety47</title>
   </head>
 
   <body>
-    <header>
+    <div id="container">
       <div class="inner">
-        <h1>Mt4-indies</h1>
-        <h2>Source code repository for Metatrader 4 indicators</h2>
-        <a href="https://github.com/ninety47/mt4-indies" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>Welcome</h1>
+        <header>
+          <h1>Mt4 Indicators</h1>
+          <h2>Source code repository for Metatrader 4 indicators</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/ninety47/mt4-indies/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/ninety47/mt4-indies/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/ninety47/mt4-indies" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome</h1>
 
 <p>This is my set of open source MetaTrader 4 indicators (almost all) released under the GNU GPL v3 license or otherwise 
 specified. Any other open source libraries used here are appropriate referenced. A copy of the GPL license is available 
 in the <a href="https://github.com/ninety47/mt4-indies/blob/master/gpl.txt">root</a> of this repository or from 
 <a href="http://www.gnu.org/licenses/gpl.html">GNU website</a>.</p>
 
-<h1>Disclaimer</h1>
+<h1>
+<a name="disclaimer" class="anchor" href="#disclaimer"><span class="octicon octicon-link"></span></a>Disclaimer</h1>
 
 <p>Trading is inherently risky. If you use these indicators or any of the source code or libraries in this repository 
 you do so acknowledging they are provided <strong>AS-IS</strong> and <strong>WITH NO WARRANTY</strong> of any kind. If you chose to use the
@@ -48,13 +53,15 @@ using the:</p>
 <li>source code, </li>
 <li>compiled or other binary products, or </li>
 <li>any works derived from this source or binary code held in this repository.</li>
-</ul><h1>What is MetaTrader 4 (MT4)</h1>
+</ul><h1>
+<a name="what-is-metatrader-4-mt4" class="anchor" href="#what-is-metatrader-4-mt4"><span class="octicon octicon-link"></span></a>What is MetaTrader 4 (MT4)</h1>
 
 <p>MetaTrader 4 is a retail trading platform commonly used by retail traders to trade Foreign Exchange (FX) and Contracts
 For Difference (CFDs). You can learn more about MetaTrader from the the MetaQuotes 
 <a href="http://www.metaquotes.net/">website</a>.</p>
 
-<h1>Repository Structure</h1>
+<h1>
+<a name="repository-structure" class="anchor" href="#repository-structure"><span class="octicon octicon-link"></span></a>Repository Structure</h1>
 
 <p>Each indicator, or group of indicators, are kept in a sub-folder. Some of the indicators have dependecies - these 
 are listed each the READ ME file. The subfolders are structre in similar fashion to the MT4 experts folder. </p>
@@ -75,7 +82,8 @@ are listed each the READ ME file. The subfolders are structre in similar fashion
 <strong>Paulus1M1T</strong>: An experiment in deriving expectancy for a basic mechanical system from within MT4. The 1 minute 1 trade 
 indicator implements a method outlined in a thread on Forex Factory. My implementation of this system as indicator is 
 <strong>NOT</strong> an endorsement of the thread or the trading system - it was just an experiment. (needs some code clean up).</li>
-</ul><h1>References</h1>
+</ul><h1>
+<a name="references" class="anchor" href="#references"><span class="octicon octicon-link"></span></a>References</h1>
 
 <p>Here are some useful links:</p>
 
@@ -87,29 +95,18 @@ indicator implements a method outlined in a thread on Forex Factory. My implemen
 <li>
 <a href="http://www.microsoft.com/visualstudio/eng/products/visual-studio-express-products">Visual Studio Express Edition</a>: Visual Studio (even though its Microsoft product) is a great IDE and hey its the easiest way to build DLLs.</li>
 <li>I'd put <a href="http://www.ninety47.com">www.ninety47.com</a> here buts its not even under construction yet :)</li>
-</ul><h1>Feedback</h1>
+</ul><h1>
+<a name="feedback" class="anchor" href="#feedback"><span class="octicon octicon-link"></span></a>Feedback</h1>
 
 <p>If you like this code let me know by following me here and on twitter <a href="https://twitter.com/ninety47">@ninety47</a>.</p>
         </section>
 
-        <aside id="sidebar">
-          <a href="https://github.com/ninety47/mt4-indies/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/ninety47/mt4-indies/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+        <footer>
+          Mt4 Indicators is maintained by <a href="https://github.com/ninety47">ninety47</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
 
-          <p class="repo-owner"><a href="https://github.com/ninety47/mt4-indies"></a> is maintained by <a href="https://github.com/ninety47">ninety47</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
-    </div>
-
-            <script type="text/javascript">
+                  <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -120,5 +117,7 @@ indicator implements a method outlined in a thread on Forex Factory. My implemen
             } catch(err) {}
           </script>
 
+      </div>
+    </div>
   </body>
 </html>
